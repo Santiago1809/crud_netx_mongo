@@ -49,7 +49,7 @@ export default function TaskDetail({ task, error }) {
           <small>{task.description}</small>
           <div>
             <Button Delete color="red" onClick={open} loading={Load}>
-              Delite task
+              Delete task
             </Button>
           </div>
         </Grid.Column>
